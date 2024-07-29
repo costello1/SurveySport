@@ -14,7 +14,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<SurveySelection />} />
+        <Route path="/home" element={<SurveySelection />} />
         <Route path="/running" element={<RunningSurvey />} />
         <Route path="/trekking" element={<TrekkingSurvey />} />
         <Route path="/calcetto" element={<CalcettoSurvey />} />

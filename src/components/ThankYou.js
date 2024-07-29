@@ -9,7 +9,7 @@ const ThankYou = () => {
       <div className="thank-you-content">
         <h1>Grazie per aver completato il questionario!</h1>
         <p>La tua partecipazione è molto apprezzata.</p>
-        <Link to="/">
+        <Link to="/home">
           <button className="thank-you-button">Vuoi completare un altro questionario?</button>
         </Link>
       </div>
