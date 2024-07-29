@@ -6,7 +6,7 @@ import '../styles/Survey.css';
 const SurveySelection = () => (
   <div className="container survey-selection">
     <h1>Benvenuto</h1>
-    <p>Quale tra questi questionari vuoi scegliere?</p>
+    <p className='sottotitolo'>Quale tra questi questionari vuoi scegliere?</p>
     <ul>
       <li><Link to="/survey/running">Running</Link></li>
       <li><Link to="/survey/trekking">Trekking</Link></li>

@@ -28,7 +28,7 @@
   
   .survey-form button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: rgb(234, 51, 35);
     color: white;
     border: none;
     border-radius: 4px;
@@ -55,7 +55,7 @@
   h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: rgb(234, 51, 35);
   }
   
   /* Stile comune per i pulsanti */
@@ -64,7 +64,7 @@
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #007bff;
+    background-color: rgb(234, 51, 35);
     color: white;
     border: none;
     border-radius: 4px;
@@ -73,7 +73,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: rgb(234, 51, 35);
   }
   
   /* Stile per i form di survey */
@@ -104,7 +104,7 @@
   .survey-selection a {
     text-decoration: none;
     color: white;
-    background-color: #007bff;
+    background-color: rgb(234, 51, 35);
     padding: 10px;
     border-radius: 4px;
     display: block;
@@ -112,8 +112,15 @@
   }
   
   .survey-selection a:hover {
-    background-color: #0056b3;
+    background-color: rgb(234, 51, 35);
   }
+
+  .sottotitolo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(234, 51, 35);
+}
   
   /* Stile per il pannello admin */
   .admin-panel {
@@ -122,6 +129,6 @@
   
   .admin-panel p {
     margin-top: 20px;
-    color: green;
+    color: rgb(234, 51, 35);
   }
   
