@@ -15,11 +15,11 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<SurveySelection />} />
-        <Route path="/survey/running" element={<RunningSurvey />} />
-        <Route path="/survey/trekking" element={<TrekkingSurvey />} />
-        <Route path="/survey/calcetto" element={<CalcettoSurvey />} />
-        <Route path="/survey/padel" element={<PadelSurvey />} />
-        <Route path="/survey/beachvolley" element={<BeachVolleySurvey />} />
+        <Route path="/running" element={<RunningSurvey />} />
+        <Route path="/trekking" element={<TrekkingSurvey />} />
+        <Route path="/calcetto" element={<CalcettoSurvey />} />
+        <Route path="/padel" element={<PadelSurvey />} />
+        <Route path="/beachvolley" element={<BeachVolleySurvey />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/thank-you" element={<ThankYou />} />
       </Routes>
