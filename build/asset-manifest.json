@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SURVEY/static/css/main.f4a5952a.css",
+    "main.js": "/SURVEY/static/js/main.09e550c5.js",
+    "static/js/453.4b136d3e.chunk.js": "/SURVEY/static/js/453.4b136d3e.chunk.js",
+    "index.html": "/SURVEY/index.html",
+    "main.f4a5952a.css.map": "/SURVEY/static/css/main.f4a5952a.css.map",
+    "main.09e550c5.js.map": "/SURVEY/static/js/main.09e550c5.js.map",
+    "453.4b136d3e.chunk.js.map": "/SURVEY/static/js/453.4b136d3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4a5952a.css",
+    "static/js/main.09e550c5.js"
+  ]
+}

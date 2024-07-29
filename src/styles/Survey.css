@@ -1,0 +1,127 @@
+/* src/styles/Survey.css */
+.survey-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .survey-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .survey-form input,
+  .survey-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .survey-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .survey-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* src/styles/Survey.css */
+
+/* Stile comune per i contenitori */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Stile comune per i titoli */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Stile comune per i pulsanti */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Stile per i form di survey */
+  .survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .survey-form input,
+  .survey-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Stile per la pagina di selezione dei survey */
+  .survey-selection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .survey-selection li {
+    margin: 10px 0;
+  }
+  
+  .survey-selection a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+  }
+  
+  .survey-selection a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Stile per il pannello admin */
+  .admin-panel {
+    text-align: center;
+  }
+  
+  .admin-panel p {
+    margin-top: 20px;
+    color: green;
+  }
+  
