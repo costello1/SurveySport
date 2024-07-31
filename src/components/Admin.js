@@ -14,7 +14,14 @@ const Admin = () => {
 
     let surveyData = [];
     querySnapshot.forEach((doc) => {
-      surveyData.push(doc.data());
+      let data = doc.data();
+      // Convert arrays to strings for Excel export
+      for (let key in data) {
+        if (Array.isArray(data[key])) {
+          data[key] = data[key].join(', ');
+        }
+      }
+      surveyData.push(data);
     });
 
     const worksheet = XLSX.utils.json_to_sheet(surveyData);

@@ -12,6 +12,59 @@
     text-align: center;
     margin-bottom: 20px;
   }
+
+  .survey-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .survey-form input[type="text"],
+  .survey-form input[type="email"],
+  .survey-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .survey-form fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .survey-form legend {
+    font-weight: bold;
+  }
+  
+  .survey-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .survey-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .survey-form button:hover {
+    background-color: #45a049;
+  }
   
   .survey-form {
     display: flex;
