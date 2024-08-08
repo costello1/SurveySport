@@ -130,7 +130,7 @@ const BeachVolleySurvey = () => {
           </label>
         </fieldset>
         <select name="carpooling" onChange={handleChange} required>
-          <option value="">Se sei automunito/a, saresti disposto a organizzare un carpooling per andare a giocare?</option>
+          <option value="">Se sei automunito/a, e disposto a organizzare un carpooling?</option>
           <option value="si">Si</option>
           <option value="no">No</option>
         </select>

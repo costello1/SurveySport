@@ -36,6 +36,13 @@
     border: 1px solid #ddd;
     border-radius: 4px;
   }
+  /* Style for the input text box */
+.survey-form input[type="text"],
+.survey-form select {
+  min-height: 60px; /* Increases the height of the input and select elements */
+  white-space: pre-wrap; /* Allows the placeholder to wrap */
+  word-wrap: break-word; /* Allows long words to be broken and wrap to the next line */
+}
   
   .survey-form fieldset {
     margin-bottom: 15px;
@@ -91,6 +98,17 @@
   .survey-form button:hover {
     background-color: #0056b3;
   }
+
+  /* Style for the placeholder text */
+.survey-form ::placeholder {
+  white-space: pre-wrap; /* Allows the placeholder to wrap */
+  word-wrap: break-word; /* Allows long words to be broken and wrap to the next line */
+  text-align: start;
+}
+
+.survey-form input::placeholder {
+  text-align: left;
+}
   
   /* src/styles/Survey.css */
 
