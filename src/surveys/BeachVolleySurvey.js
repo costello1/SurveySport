@@ -139,7 +139,7 @@ const BeachVolleySurvey = () => {
           <option value="si">Si</option>
           <option value="no">No</option>
         </select>
-        <button type="submit">Submit</button>
+        <button type="submit">Invia</button>
       </form>
     </div>
   );
