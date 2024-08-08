@@ -51,8 +51,8 @@ const RunningSurvey = () => {
       <form onSubmit={handleSubmit} className="survey-form">
         <input type="text" name="nome" placeholder="Nome" onChange={handleChange} required />
         <input type="text" name="cognome" placeholder="Cognome" onChange={handleChange} required />
-        <input type="email" name="mail" placeholder="Email (aziendale o privata)" onChange={handleChange} required />
-        <input type="text" name="cell" placeholder="Telefono (aziendale o privato)" onChange={handleChange} required />
+        <input type="email" name="mail" placeholder="Email (aziendale se disponibile o privata)" onChange={handleChange} required />
+        <input type="text" name="cell" placeholder="Telefono (aziendale se disponibile o privato)" onChange={handleChange} required />
         <select name="kmSettimana" onChange={handleChange} required>
           <option value="">Seleziona KM percorsi a settimana</option>
           <option value="<40">Inferiore a 40 Km / Settimana</option>

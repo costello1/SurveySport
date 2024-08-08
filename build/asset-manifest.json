@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SurveySport/static/css/main.ba81319e.css",
-    "main.js": "/SurveySport/static/js/main.664c6f50.js",
+    "main.js": "/SurveySport/static/js/main.f56ba322.js",
     "static/js/453.4b136d3e.chunk.js": "/SurveySport/static/js/453.4b136d3e.chunk.js",
     "index.html": "/SurveySport/index.html",
     "main.ba81319e.css.map": "/SurveySport/static/css/main.ba81319e.css.map",
-    "main.664c6f50.js.map": "/SurveySport/static/js/main.664c6f50.js.map",
+    "main.f56ba322.js.map": "/SurveySport/static/js/main.f56ba322.js.map",
     "453.4b136d3e.chunk.js.map": "/SurveySport/static/js/453.4b136d3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba81319e.css",
-    "static/js/main.664c6f50.js"
+    "static/js/main.f56ba322.js"
   ]
 }
