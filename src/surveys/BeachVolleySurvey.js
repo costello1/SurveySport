@@ -61,14 +61,17 @@ const BeachVolleySurvey = () => {
             <input type="checkbox" name="zona" value="dintorni di Cascina Costa / Gallarate" onChange={handleChange} /> dintorni di Cascina Costa / Gallarate
           </label>
           <label>
-            <input type="checkbox" name="zona" value="altra località (indica un centro urbano es. Milano, Varese, Legnano, ecc) " onChange={handleChange} /> altra località (indica un centro urbano es. Milano, Varese, Legnano, ecc) 
+            <input type="checkbox" name="zona" value="Milano" onChange={handleChange} /> Milano 
           </label>
           <label>
-            <input type="checkbox" name="zona" value="Altro" onChange={handleChange} /> Altro
+            <input type="checkbox" name="zona" value="Varese" onChange={handleChange} /> Varese
+          </label>
+          <label>
+            <input type="checkbox" name="zona" value="Legnano / Busto Arsizio / Castellanza" onChange={handleChange} /> Legnano / Busto Arsizio / Castellanza
           </label>
         </fieldset>
         <input type="text" name="zona" placeholder="Zona" onChange={handleChange} required />
-        <input type="text" name="squadra / struttura" placeholder="Se giochi indica squadra e struttura" onChange={handleChange} required />
+        <input type="text" name="squadra / struttura" placeholder="Se già giochi a beach volley indica squadra e struttura e dove si trova" onChange={handleChange} required />
         <select name="abilita" onChange={handleChange} required>
           <option value="">Seleziona Livello</option>
           <option value="Principiante">Principiante: è alle prime armi del beach volley: preferisce giocare in una squadra di almeno 3 o 4 persone. Applica le regole della pallavolo</option>
@@ -130,7 +133,7 @@ const BeachVolleySurvey = () => {
           </label>
         </fieldset>
         <select name="carpooling" onChange={handleChange} required>
-          <option value="">Se sei automunito/a, e disposto a organizzare un carpooling?</option>
+          <option value="">Se sei automunito/a saresti disposto a organizzare un carpooling?</option>
           <option value="si">Si</option>
           <option value="no">No</option>
         </select>

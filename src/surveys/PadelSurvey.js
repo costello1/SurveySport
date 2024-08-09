@@ -56,13 +56,16 @@ const PadelSurvey = () => {
             <input type="checkbox" name="zona" value="dintorni di Cascina Costa / Gallarate" onChange={handleChange} /> dintorni di Cascina Costa / Gallarate
           </label>
           <label>
-            <input type="checkbox" name="zona" value="altra località (indica un centro urbano es. Milano, Varese, Legnano, ecc) " onChange={handleChange} /> altra località (indica un centro urbano es. Milano, Varese, Legnano, ecc) 
+            <input type="checkbox" name="zona" value="Milano" onChange={handleChange} /> Milano 
           </label>
           <label>
-            <input type="checkbox" name="zona" value="Altro" onChange={handleChange} /> Altro
+            <input type="checkbox" name="zona" value="Varese" onChange={handleChange} /> Varese
+          </label>
+          <label>
+            <input type="checkbox" name="zona" value="Legnano / Busto Arsizio / Castellanza" onChange={handleChange} /> Legnano / Busto Arsizio / Castellanza
           </label>
         </fieldset>
-        <input type="text" name="squadra" placeholder="Se giochi indica squadra e struttura" onChange={handleChange} required />
+        <input type="text" name="squadra" placeholder="Se già giochi a padel indica squadra e struttura e dove si trova" onChange={handleChange} required />
         <select name="abilita" onChange={handleChange} required>
           <option value="">Seleziona Livello</option>
           <option value="Principiante">Principiante</option>
@@ -70,7 +73,7 @@ const PadelSurvey = () => {
           <option value="Avanzato">Avanzato</option>
         </select>
         <select name="corso" onChange={handleChange} required>
-          <option value="">Parteciperesti a un corso monosettimana?</option>
+          <option value="">Parteciperesti a un corso monosettimana per incrementare il tuo livello?</option>
           <option value="si">Si</option>
           <option value="no">No</option>
         </select>
@@ -140,8 +143,9 @@ const PadelSurvey = () => {
             <input type="checkbox" name="ruolo" value="Indifferente" onChange={handleChange} /> Indifferente
           </label>
         </fieldset>
+        <input type="text" name="APP Playtonic" placeholder="Se utilizzi l'app Playtonic inserisci: livello/livello di Affidabilità/n° partite/note" onChange={handleChange} required />
         <select name="carpooling" onChange={handleChange} required>
-          <option value="">Se sei automunito/a, e disposto a organizzare un carpooling?</option>
+          <option value="">Se sei automunito/a saresti disposto a organizzare un carpooling?</option>
           <option value="si">Si</option>
           <option value="no">No</option>
         </select>

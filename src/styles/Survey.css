@@ -1,27 +1,20 @@
 /* src/styles/Survey.css */
 .survey-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-  }
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
   
   .survey-container h1 {
     text-align: center;
     margin-bottom: 20px;
   }
 
-  .survey-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
+  
   
   .survey-form {
     display: flex;
@@ -35,14 +28,10 @@
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    min-height: 60px; /* Increases the height of the input and select elements */
+    white-space: pre-wrap; /* Allows the placeholder to wrap */
+    word-wrap: break-word; /* Allows long words to be broken and wrap to the next line */
   }
-  /* Style for the input text box */
-.survey-form input[type="text"],
-.survey-form select {
-  min-height: 60px; /* Increases the height of the input and select elements */
-  white-space: pre-wrap; /* Allows the placeholder to wrap */
-  word-wrap: break-word; /* Allows long words to be broken and wrap to the next line */
-}
   
   .survey-form fieldset {
     margin-bottom: 15px;

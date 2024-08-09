@@ -62,14 +62,17 @@ const TrekkingSurvey = () => {
             <input type="checkbox" name="zona" value="Valtellina" onChange={handleChange} /> la Valtellina
           </label>
         </fieldset>
-        <input type="text" name="esperienza" placeholder="Esperienza" onChange={handleChange} required />
+        <select name="CAI" onChange={handleChange} required>
+          <option value="">Sei iscritto al CAI</option>
+          <option value="Si">Si</option>
+          <option value="No">NO</option>
+        </select>
         <select name="abilita" onChange={handleChange} required>
           <option value="">Seleziona Livello</option>
           <option value="Principiante">Principiante: nessuna o quasi nessuna esperienza di trekking in montagna, dislivello inferiore a 500m, durata massima 3h</option>
           <option value="Medio">Medio: qualche uscita alle spalle, dislivello inferiore a 1000m, durata massima 5 h</option>
           <option value="Avanzato">Avanzato: a suo agio sui sentieri di montagna con esperienza di dislivelli/durata superiori ai 1000m/5h giornaliere</option>
         </select>
-        <input type="text" name="caratteristiche" placeholder="Indicaci le caratteristiche delle tue abituali camminate (lunghezza, dislivello, altro)" onChange={handleChange} required />
         <fieldset>
           <legend>In quali giorni preferiresti che venissero organizzate le escursioni?</legend>
           <label>
@@ -92,7 +95,7 @@ const TrekkingSurvey = () => {
           </label>
         </fieldset>
         <select name="carpooling" onChange={handleChange} required>
-          <option value="">Se sei automunito/a, e disposto a organizzare un carpooling?</option>
+          <option value="">Se sei automunito/a saresti disposto a organizzare un carpooling?</option>
           <option value="si">Si</option>
           <option value="no">No</option>
         </select>
